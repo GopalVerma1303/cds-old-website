@@ -22,7 +22,7 @@ const Domains = () => {
       >
         <TypingText title="| Domains" textStyles="text-center" />
         <TitleText
-          title={<>Choose the world you want <br className="md:block hidden" /> to explore</>}
+          title={<>Code Deploying Squad covers a wide range of domains</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
@@ -33,6 +33,7 @@ const Domains = () => {
               index={index}
               active={active}
               handleClick={setActive}
+             
             />
           ))}
         </div>

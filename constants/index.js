@@ -1,28 +1,33 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'AI Astra Nexus',  
+    imgUrl: '/web.png',
+    title: 'Web Development',  
+    discription: "Crafting seamless and user-centric digital experiences with expertise in a wide array of technologies and frameworks.    "
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'AstroCode Architects',
+    imgUrl: '/mob.png',
+    title: 'Mobile App Development',
+    discription: "Building intuitive and high-performance mobile applications for iOS, Android, and cross-platform platforms.    "
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'BlockBinary Hub',
+    imgUrl: '/mlai.png',
+    title: 'Data Science, ML and AI',
+    discription: "Harnessing data and algorithms to create intelligent systems, from predictive modeling to computer vision."
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'MindMapping Engineers',
+    imgUrl: '/devops.png',
+    title: 'DevOps and Infrastructure',
+    discription: "Streamlining development workflows, optimizing system performance, and emphasizing automation and scalability."
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'WebCosmic Innovators',
+    imgUrl: '/web3.png',
+    title: 'Blockchain and Web3',
+    discription: "Unraveling insights within datasets through advanced statistical methods, machine learning, and visualization techniques."
   },
 ];
 

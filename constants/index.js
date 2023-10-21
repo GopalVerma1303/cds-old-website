@@ -27,7 +27,7 @@ export const exploreWorlds = [
     id: 'world-5',
     imgUrl: '/web3.png',
     title: 'Blockchain and Web3',
-    discription: "Unraveling insights within datasets through advanced statistical methods, machine learning, and visualization techniques."
+    discription: "Pioneering decentralized technologies, smart contracts, and applications on the blockchain, ushering in the era of Web3.    "
   },
 ];
 

@@ -29,9 +29,9 @@ const Navbar = () => {
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
         <img
-          src="/search.svg"
-          alt="search"
-          className="w-[24px] h-[24px] object-contain "
+          src="/cds_circle.png"
+          alt="cds"
+          className="w-[35px] h-[35px] object-contain "
         />
         <h2 className="font-bold sm:text-[20px] text-[18px] leading-[30.24px] text-white">
           Code Deploying Squad

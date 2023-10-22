@@ -8,6 +8,7 @@ import styles from "../styles";
 import { navVariants } from "../utils/motion";
 import navlinks from "../constants/navlinks";
 import { Navlink } from ".";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -28,16 +29,20 @@ const Navbar = () => {
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
-        <img
+        <Image
           src="/cds_circle.png"
           alt="cds"
+          width={900}
+          height={900}
           className="w-[35px] h-[35px] object-contain "
         />
         <h2 className="font-bold sm:text-[20px] text-[18px] leading-[30.24px] text-white">
           Code Deploying Squad
         </h2>
         <div className="relative">
-          <img
+          <Image
+            width={900}
+            height={900}
             src="/menu.svg"
             alt="menu"
             className="w-[24px] h-[24px] object-contain cursor-pointer"

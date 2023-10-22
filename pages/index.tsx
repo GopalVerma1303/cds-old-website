@@ -7,7 +7,7 @@ import {
   Projects,
   CodeOfConduct,
   Contributors,
-  ContributorsGuide
+  ContributorsGuide,
 } from "../sections";
 
 const Home = () => (
@@ -22,9 +22,12 @@ const Home = () => (
     <div className="relative">
       <ContributorsGuide />
       <div className="gradient-04 z-0" />
-      <CodeOfConduct />
     </div>
-    <Projects />
+    <div className="relative">
+      <CodeOfConduct />
+      <div className="gradient-04 z-0" />
+    </div>
+    {/* <Projects /> */}
     <div className="relative">
       <Contributors />
       {/* <div className="gradient-04 z-0" />

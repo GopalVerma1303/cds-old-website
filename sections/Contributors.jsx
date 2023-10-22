@@ -19,7 +19,7 @@ const Contributors = () => (
       <TypingText title="| Contributors" textStyles="text-center" />
       <TitleText
         title={(
-          <>Check out your favourite cosmos , Take Inspiration , Build your own Star
+          <>Code Deploying Squad stands as a testament to the power of collaboration
           </>
       
         )}
@@ -43,6 +43,31 @@ const Contributors = () => (
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
+
+        <div className="absolute top-36 left-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-01.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-36 right-1/3 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="/people-02.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-3/4 left-[18%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-03.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-16 right-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-01.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-16 left-1/2 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="/people-02.png" alt="people" className="w-full h-full" />
+        </div>
+
+        <div className="absolute top-1/5 right-[28%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-03.png" alt="people" className="w-full h-full" />
+        </div>
+        
       </motion.div>
     </motion.div>
   </section>

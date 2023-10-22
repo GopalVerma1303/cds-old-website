@@ -45,15 +45,27 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
-    title: "Collaborations",
+    title: "Respectful Communication",
     subtitle:
-      " Collaboration is at our core, as we believe that together we can achieve more than as individuals.",
+      "Treat others with respect, kindness, and empathy. Disagreements are normal, but always express yourself in a considerate manner.      ",
   },
   {
     imgUrl: "/headset.svg",
     title: "Inclusivity",
     subtitle:
-      " Inclusivity is our strength, where all are welcome, and diversity is celebrated.",
+      "Embrace diversity and inclusivity in all interactions. We celebrate different perspectives and experiences.",
+  },
+  {
+    imgUrl: "/headset.svg",
+    title: "No Harassment or Discrimination",
+    subtitle:
+      "Harassment, discrimination, or any form of unwelcome behavior is not tolerated. This includes, but is not limited to, offensive comments, slurs, and any form of intimidation.      ",
+  },
+  {
+    imgUrl: "/headset.svg",
+    title: "Collaborative Spirit",
+    subtitle:
+      "Foster a spirit of collaboration and cooperation. Help and support others to create a positive and productive community.      ",
   },
 ];
 

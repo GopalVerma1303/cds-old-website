@@ -3,11 +3,11 @@ import {
   About,
   Domains,
   FounderNote,
-  ContriGuide,
   Hero,
   Projects,
   CodeOfConduct,
   Contributors,
+  ContributorsGuide
 } from "../sections";
 
 const Home = () => (
@@ -20,15 +20,15 @@ const Home = () => (
       <Domains />
     </div>
     <div className="relative">
-      <ContriGuide />
+      <ContributorsGuide />
       <div className="gradient-04 z-0" />
       <CodeOfConduct />
     </div>
-    <Contributors />
+    <Projects />
     <div className="relative">
-      <Projects />
-      <div className="gradient-04 z-0" />
-      <FounderNote />
+      <Contributors />
+      {/* <div className="gradient-04 z-0" />
+      <FounderNote /> */}
     </div>
     <Footer />
   </div>

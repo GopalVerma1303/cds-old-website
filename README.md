@@ -31,6 +31,9 @@
 </div>
 
 <br>
+<div align="center">
+  <img alt="CDS" title="CDS" src="https://github.com/CodeDeployingSquad/website/blob/2a579fcf683ea8dea3757ec51f2a61b477dff0da/ss.png" width="100%">
+</div>
 <br>
 
 ## Table of Contents

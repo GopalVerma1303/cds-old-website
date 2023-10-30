@@ -75,7 +75,7 @@ const Footer = () => (
                     <a href="https://www.youtube.com/channel/UCgfABFAZox1a26_iyyUuYeg" target="_blank" className="hover:underline">YouTube</a>
                   </li>
                   <li className="mb-4">
-                    <a href="https://www.linkedin.com/in/code-deploying-squad-946a6621a/" target="_blank" className="hover:underline">LinkedIn</a>
+                    <a href="https://www.linkedin.com/company/codedeployingsquad/" target="_blank" className="hover:underline">LinkedIn</a>
                   </li>
                   <li className="mb-4">
                     <a href="https://www.reddit.com/r/CodeDeployingSquad/" target="_blank" className="hover:underline">Reddit</a>

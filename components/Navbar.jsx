@@ -10,11 +10,15 @@ import navlinks from "../constants/navlinks";
 import { Navlink } from ".";
 import Image from "next/image";
 
+
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   // const [dropdownWidth, setDropdownWidth] = useState("w-170");
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+  const handleNavlinkClick = () => {
+    setIsDropdownOpen(false);
   };
 
   return (
@@ -56,7 +60,7 @@ const Navbar = () => {
                 {
                   navlinks.map(e => {
                     return (
-                      <Navlink key={e.tag} label={e.label} tag={e.tag} />
+                      <Navlink key={e.tag} label={e.label} tag={e.tag} onClick={handleNavlinkClick}/>
                     )
                   })
                 }

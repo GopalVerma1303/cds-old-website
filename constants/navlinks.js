@@ -1,7 +1,7 @@
 const navlinks = [
   {
     label: "Home",
-    tag: "#hero",
+    tag: "#",
   },
   {
     label: "About",

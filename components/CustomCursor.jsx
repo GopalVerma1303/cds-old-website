@@ -1,32 +1,36 @@
-import { useEffect,useRef } from "react";
+import React, { useEffect, useRef } from "react";
+import useMousePosition from "@/hooks/useMousePosition";
 
-// component that follows the mouse
-export default function CustomCursor  (){
-    const cursorRef = useRef(null)
-    useEffect(() => {
-    if (cursorRef.current == null || cursorRef == null)
-         return;
-    document.addEventListener('mousemove', e => {
-         if (cursorRef.current == null)
-              return;
-         cursorRef.current.setAttribute("style", "top: " + (e.pageY-45) + "px; left: " + (e.pageX-45) + "px;")
-    });
+const CustomCursor = () => {
+  const { x, y } = useMousePosition();
+  const cursorRef = useRef(null);
 
-    document.addEventListener('click', () => {
-     
-
-    if(cursorRef.current == null)
-         return;
+  const handleDocumentClick = () => {
+    if (cursorRef.current == null) return;
     cursorRef.current.classList.add("expand");
     setTimeout(() => {
-         if (cursorRef.current == null)
-              return;
-         cursorRef.current.classList.remove("expand");
-    }, 500)
-    })
-    }, [])
-    return (
-    <div className='cursor' id="cursor" ref={cursorRef}>
-    </div>
-    )
-    }
+      if (cursorRef.current == null) return;
+      cursorRef.current.classList.remove("expand");
+    }, 500);
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleDocumentClick);
+
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+    };
+  }, []);
+
+  return (
+    <>
+      <div
+        ref={cursorRef}
+        style={{ left: `${x - 45}px`, top: `${y - 45}px` }}
+        className={"cursor "}
+      ></div>
+    </>
+  );
+};
+
+export default CustomCursor;

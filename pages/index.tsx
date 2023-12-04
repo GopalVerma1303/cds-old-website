@@ -1,5 +1,6 @@
+import React from "react";
 import { Footer, Navbar } from "../components";
-import CustomCursor from '../components/CustomCursor';
+import CustomCursor from "../components/CustomCursor";
 import {
   About,
   Domains,
@@ -11,12 +12,13 @@ import {
   ContributorsGuide,
 } from "../sections";
 
-
 const Home = () => (
-  <div className=" bg-black overflow-hidden" >
-    <CustomCursor/>
+  <div className=" bg-black overflow-hidden">
+    <CustomCursor />
     <Navbar />
-    <div id ="#" ><Hero /></div>
+    <div id="#">
+      <Hero />
+    </div>
     <div id="about" className="relative">
       <About />
       <div id="domains" className="relative" />
@@ -36,8 +38,9 @@ const Home = () => (
       {/* <div className="gradient-04 z-0" />
       <FounderNote /> */}
     </div>
-    <div id = "contactus"><Footer /></div>
-    
+    <div id="contactus">
+      <Footer />
+    </div>
   </div>
 );
 

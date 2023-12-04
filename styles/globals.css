@@ -143,49 +143,88 @@ body {
   content: "";
   width: 100px;
   height: 100px;
-  position: absolute;
-  border: 3px solid rgb(0, 233, 0);
-  box-shadow: 0px 0px 0px 6px rgb(0, 233, 0,0.3) inset,0px 0px 4px rgb(0, 233, 0) ;
+  position: fixed;
+  border: 3px solid #00ffff; /* Cyberpunk Blue */
+  box-shadow: 0px 0px 0px 6px rgba(0, 255, 255, 0.3) inset, 0px 0px 4px #00ffff;
   border-radius: 35%;
-  opacity:1 ;
+  opacity: 1;
   rotate: 45deg;
   z-index: 13;
-  
-  }
-  .cursor::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    position: fixed;
-    border-radius: 50%;
-    opacity:1 ;
-    
-  }
-  @keyframes cursorAnim {
-  0% {
-  opacity: 1;
-  transform: scale(1);
-  border: 3px solid blue;
-  box-shadow: 0px 0px 10px blue inset,0px 0px 10px blue ;
-  z-index: 100;
+}
 
+.cursor::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  border-radius: 50%;
+  opacity: 1;
+}
+@keyframes cursorAnim {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    border: 3px solid #00ccff; /* Darker Cyberpunk Blue */
+    box-shadow: 0px 0px 10px #00ccff inset, 0px 0px 10px #00ccff;
+    z-index: 100;
   }
   50% {
-  transform: scale(0.5);
-  opacity: 00.7;
-  z-index: 100;
-  border: 3px solid blue;
-  box-shadow: 0px 0px 10px blue inset,0px 0px 10px blue ;
+    transform: scale(0.5);
+    opacity: 0.7;
+    z-index: 100;
+    border: 3px solid #00ccff; /* Darker Cyberpunk Blue */
+    box-shadow: 0px 0px 10px #00ccff inset, 0px 0px 10px #00ccff;
   }
   100% {
-  transform: scale(1);
-  opacity: 1;
-  z-index: 100;
-  border: 3px solid blue;
-  box-shadow: 0px 0px 10px blue inset,0px 0px 10px blue ;
+    transform: scale(1);
+    opacity: 1;
+    z-index: 100;
+    border: 3px solid #00ccff; /* Darker Cyberpunk Blue */
+    box-shadow: 0px 0px 10px #00ccff inset, 0px 0px 10px #00ccff;
+  }
+}
+.expand {
+  animation: cursorAnim 0.5s forwards;
+}
 
-  }
-  }
-  .expand {
-  animation: cursorAnim .5s forwards;
-  }
+.ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(31, 30, 30, 0.808);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  pointer-events: none;
+}
+
+.ring.hovered {
+  width: 50px;
+  height: 50px;
+  border-width: 3px;
+  border-color: lightgray;
+}
+
+.dot.hovered {
+  display: none;
+}

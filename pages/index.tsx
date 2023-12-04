@@ -1,4 +1,5 @@
 import { Footer, Navbar } from "../components";
+import CustomCursor from '../components/CustomCursor';
 import {
   About,
   Domains,
@@ -13,6 +14,7 @@ import {
 
 const Home = () => (
   <div className=" bg-black overflow-hidden" >
+    <CustomCursor/>
     <Navbar />
     <div id ="#" ><Hero /></div>
     <div id="about" className="relative">
@@ -35,6 +37,7 @@ const Home = () => (
       <FounderNote /> */}
     </div>
     <div id = "contactus"><Footer /></div>
+    
   </div>
 );
 

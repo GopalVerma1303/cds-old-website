@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/CustomTexts.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/CustomTexts.jsx", "components/CustomCursor.jsx"],
   "exclude": ["node_modules"]
 }

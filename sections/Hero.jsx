@@ -10,7 +10,7 @@ import { planetVariants, fadeIn } from '../utils/motion';
 import Link from 'next/link';
 
 const Hero = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10 h-[100vh] md:h-screen justify-center items-center flex  lg:-top-10  md:top-[200px]`}>
     <Stars />
     <motion.div
       variants={staggerContainer}

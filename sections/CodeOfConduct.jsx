@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { newFeatures } from '../constants';
-import { NewFeatures, TitleText, TypingText } from '../components';
-import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
+import styles from "../styles";
+import { newFeatures } from "../constants";
+import { FeatureCard, NewFeatures, TitleText, TypingText } from "../components";
+import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
 
 const CodeOfConduct = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -14,31 +14,17 @@ const CodeOfConduct = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
-      >
-        <TypingText title="| Code Of Conduct" />
-        <TitleText title={<>Our Values</>} />
-        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature) => (
-            <NewFeatures key={feature.title} {...feature} />
-          ))}
-        </div>
-      </motion.div>
+      <TypingText title="| Code Of Conduct" textStyles="text-center" />
+      <TitleText title={<>Our Values</>} textStyles="text-center" />
 
-      <motion.div
-        variants={planetVariants('right')}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <img
-          src="/whats-new.png"
-          alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
-        />
-      </motion.div>
+      <div className="mt-[48px] flex flex-wrap justify-evenly gap-[24px]">
+        {newFeatures.map((feature) => (
+          // <NewFeatures key={feature.title} {...feature} />
+          <FeatureCard key={feature.title} imgUrl={feature.imgUrl} title={feature.title} {...feature} />
+        ))}
+      </div>
     </motion.div>
   </section>
 );

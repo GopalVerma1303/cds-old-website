@@ -44,25 +44,25 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
+    imgUrl: "/coc/respect.svg",
     title: "Respectful Communication",
     subtitle:
       "Treat others with respect, kindness, and empathy. Disagreements are normal, but always express yourself in a considerate manner.      ",
   },
   {
-    imgUrl: "/headset.svg",
+    imgUrl: "/coc/inclusion.svg",
     title: "Inclusivity",
     subtitle:
       "Embrace diversity and inclusivity in all interactions. We celebrate different perspectives and experiences.",
   },
   {
-    imgUrl: "/headset.svg",
+    imgUrl: "/coc/equality.svg",
     title: "No Harassment or Discrimination",
     subtitle:
       "Harassment, discrimination, or any form of unwelcome behavior is not tolerated. This includes, but is not limited to, offensive comments, slurs, and any form of intimidation.      ",
   },
   {
-    imgUrl: "/headset.svg",
+    imgUrl: "/coc/collab.svg",
     title: "Collaborative Spirit",
     subtitle:
       "Foster a spirit of collaboration and cooperation. Help and support others to create a positive and productive community.      ",

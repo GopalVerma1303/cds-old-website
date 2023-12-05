@@ -29,6 +29,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.2.0(react@18.2.0)
+  react-parallax-tilt:
+    specifier: ^1.7.175
+    version: 1.7.175(react-dom@18.2.0)(react@18.2.0)
   react-scroll:
     specifier: ^1.9.0
     version: 1.9.0(react-dom@18.2.0)(react@18.2.0)
@@ -2443,6 +2446,16 @@ packages:
 
   /react-merge-refs@1.1.0:
     resolution: {integrity: sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==}
+    dev: false
+
+  /react-parallax-tilt@1.7.175(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-EwXLhOsEJmqP9/w7dl0B8qUQzI+d5SAeO5ZlECvGKrycMq2W19icjsEXHSDdTKsD/0n109dkSR/USOEsH6SJPA==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-reconciler@0.27.0(react@18.2.0):

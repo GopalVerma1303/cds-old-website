@@ -41,7 +41,7 @@ const Navbar = () => {
           className="w-[35px] h-[35px] object-contain "
         />
         <h2 className="font-bold sm:text-[20px] text-[18px] leading-[30.24px] text-white">
-          Code Deploying Squad
+          CodeDeployingSquad
         </h2>
         <div className="relative">
           <Image
@@ -54,7 +54,7 @@ const Navbar = () => {
           />
           {isDropdownOpen && (
             <div
-              className={`absolute top-full pb-5 bg-black  rounded shadow-lg z-40 w-[200px]  -ml-[180px]`}
+              className={`absolute top-full pb-5 bg-black  rounded shadow-lg z-20 w-[200px]  -ml-[180px]`}
             >
               <ul className=" px-2">
                 {

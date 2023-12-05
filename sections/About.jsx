@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-justify text-secondary-white"
       >
         <span className="font-extrabold text-white">Code Deploying Squad</span> is vibrant open-source community of <span className="font-extrabold text-white">developers</span>, passionate about 
         creating innovative solutions. Our <span className="font-extrabold text-white">mission</span> is to foster a collaborative environment where developers of <span className="font-extrabold text-white">all backgrounds</span> come together to learn, share, and build <span className="font-extrabold text-white">impactful projects</span>. 

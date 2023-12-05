@@ -22,7 +22,7 @@ const Domains = () => {
       >
         <TypingText title="| Domains" textStyles="text-center" />
         <TitleText
-          title={<>Code Deploying Squad covers a wide range of domains</>}
+          title={<>We covers a wide range of domains</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">

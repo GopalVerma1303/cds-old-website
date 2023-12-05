@@ -64,7 +64,7 @@ const ContributorsGuide = () => {
       <TypingText title="| Contributor's Guide" textStyles="text-center" />
       <TitleText
         title={(
-          <>Your contributions play a crucial role in shaping our community and advancing our projects.
+          <>Your contributions play a crucial role in shaping our community
           </>
       
         )}

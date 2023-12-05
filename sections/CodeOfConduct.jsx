@@ -19,7 +19,7 @@ const CodeOfConduct = () => (
       <TypingText title="| Code Of Conduct" textStyles="text-center" />
       <TitleText title={<>Our Values</>} textStyles="text-center" />
 
-      <div className="mt-[48px] flex flex-wrap justify-evenly gap-[24px]">
+      <div className="mt-[48px] flex flex-wrap justify-evenly gap-[18px]">
         {newFeatures.map((feature) => (
           // <NewFeatures key={feature.title} {...feature} />
           <FeatureCard key={feature.title} imgUrl={feature.imgUrl} title={feature.title} {...feature} />

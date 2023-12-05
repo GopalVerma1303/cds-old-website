@@ -11,22 +11,22 @@
 
 <div align="center">
   <a href="https://github.com/CodeDeployingSquad/graphs/contributors">
-    <img src="https://img.shields.io/badge/Contributors-3-blue.svg" alt="Contributors">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/CodeDeployingSquad/website?label=Contributors&color=blue">
   </a>
   <a href="https://github.com/CodeDeployingSquad/graphs/commit-activity">
-    <img src="https://img.shields.io/badge/Commits-10-orange.svg" alt="Commits">
+    <img alt="Commits" src="https://img.shields.io/github/commit-activity/t/CodeDeployingSquad/website?label=Commits&color=orange">
   </a>
   <a href="https://github.com/CodeDeployingSquad/pulls">
-    <img src="https://img.shields.io/badge/PRs%20Open-3-brightgreen.svg" alt="PRs Open">
+    <img alt="PRs Open" src="https://img.shields.io/github/issues-pr-raw/CodeDeployingSquad/website?label=PRs%20Open&color=brightgreen">
   </a>
   <a href="https://github.com/CodeDeployingSquad/issues">
-    <img src="https://img.shields.io/badge/Issues%20Open-3-red.svg" alt="Issues Open">
+    <img alt="Issues Open" src="https://img.shields.io/github/issues-raw/CodeDeployingSquad/website?label=Issues%20Open&color=red">
   </a>
   <a href="https://github.com/CodeDeployingSquad/network/members">
-    <img src="https://img.shields.io/badge/Forks-3-lightgrey.svg" alt="Forks">
+    <img alt="Forks" src="https://img.shields.io/github/forks/CodeDeployingSquad/website?label=Forks&color=lightgrey">
   </a>
   <a href="https://github.com/CodeDeployingSquad/stargazers">
-    <img src="https://img.shields.io/badge/Stars-100-yellow.svg" alt="Stars">
+    <img alt="Stars" src="https://img.shields.io/github/stars/CodeDeployingSquad/website?label=Stars&color=yellow">
   </a>
 </div>
 

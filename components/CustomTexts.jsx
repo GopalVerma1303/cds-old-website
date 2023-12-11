@@ -21,7 +21,7 @@ export const TitleText = ({ title, textStyles }) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white ${textStyles}`}
+    className={`mt-[8px] font-bold text-3xl leading-snug sm:text-4xl md:text-[64px] text-[40px] text-white ${textStyles}`}
   >
     {title}
   </motion.h2>
@@ -32,7 +32,7 @@ export const HeroText = ({ title, textStyles }) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`mt-[8px] font-extrabold md:text-[64px] text-[40px] text-white tracking-tighter ${textStyles}`}
+    className={`mt-[8px] font-extrabold md:text-[64px] text-[40px] text-white leading-tight sm:leading-snug text-3xl sm:text-4xl md:text-6xl tracking-wide ${textStyles}`}
   >
     {title}
   </motion.h2>

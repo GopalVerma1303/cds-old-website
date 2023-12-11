@@ -56,7 +56,7 @@ const Hero = () => (
       <motion.div
         variants={slideIn("down", "tween", 0.2, 1)}
         // className='xl:h-auto md:h-[550px] h-[350px] bg-red-500 '
-        className=' h-[500px] w-[500px] flex '
+        className='h-[350px] md:mb-0 md:h-[500px] md:w-[500px] flex'
 
       >
         <EarthCanvas />

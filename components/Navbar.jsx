@@ -26,21 +26,21 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
-      className={`${styles.xPaddings} py-8 relative`}
+      className={`px-3 sm:px-12 py-8 relative`}
       viewport={{ once: true }}
     >
       <div className="absolute w-[50%] inset-0 gradient-01 flex justify-center items-center" />
       <div
-        className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
+        className={`${styles.innerWidth} mx-auto flex justify-between items-center gap-5 sm:gap-8`}
       >
         <Image
           src="/cds_circle.png"
           alt="cds"
           width={900}
           height={900}
-          className="w-[35px] h-[35px] object-contain "
+          className="w-8 sm:w-[35px] sm:h-[35px] object-contain "
         />
-        <h2 className="font-bold sm:text-[20px] text-[18px] leading-[30.24px] text-white">
+        <h2 className="font-bold sm:text-[20px] text-[15px] leading-[30.24px] text-white">
           CodeDeployingSquad
         </h2>
         <div className="relative">
@@ -49,7 +49,7 @@ const Navbar = () => {
             height={900}
             src="/menu.svg"
             alt="menu"
-            className="w-[24px] h-[24px] object-contain cursor-pointer"
+            className="w-5 sm:w-[24px] sm:h-[24px] object-contain cursor-pointer"
             onClick={toggleDropdown}
           />
           {isDropdownOpen && (

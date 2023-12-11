@@ -15,7 +15,9 @@ import {
 const Home = () => (
   <div className=" bg-black overflow-hidden">
     <CustomCursor />
-    <Navbar />
+    <div className="mb-20 sm:mb-24 md:mb-10 lg:mb-24 xl:mb-0">
+      <Navbar />
+    </div>
     <div id="#">
       <Hero />
     </div>

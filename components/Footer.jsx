@@ -21,9 +21,9 @@ const Footer = () => (
       <div classNameName={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <br />
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div className="md:flex md:justify-between">
+          <div className="md:flex flex-col md:justify-between">
             <div className="mb-6 md:mb-0">
-              <div  className="flex items-center justify-center ">
+              <div  className="flex items-center justify-center">
                 <a href="https://www.codedeployingsquad.tech/">
                   <Image
                     src="/CodeDeployingSquad.png"
@@ -35,7 +35,7 @@ const Footer = () => (
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+            <div className="flex flex-wrap flex-1 items-start justify-center text-center sm:text-left gap-12 sm:gap-8">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Nav Links

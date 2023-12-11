@@ -33,7 +33,6 @@ const Domains = () => {
               index={index}
               active={active}
               handleClick={setActive}
-             
             />
           ))}
         </div>
